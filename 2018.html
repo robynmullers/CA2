@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electric Picnic Festival</title>
+<link href="css/bootstrap-4.2.1.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+	
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">EP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"> <a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"> <a class="nav-link" href="line_up.html">Line Up</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="info.html">Info</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="history.html">History</a> </li>
+      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Gallery </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> 
+			<a class="dropdown-item active" href="2018.html">2018</a> 
+			<a class="dropdown-item" href="2017.html">2017</a>
+          	<a class="dropdown-item" href="2016.html">2016</a>
+          	<a class="dropdown-item" href="2015.html">2015</a>
+		</div>
+      </li>
+	  <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
+    </ul>
+  </div>
+</nav>
+	
+	<header style="margin-top: 90px;"> <img src="images/MobileHorz.png" alt="banner image"> </header>
+	
+<br>
+<img src="images/Logo.png" alt="picture of logo" style="width: 400px; height:200px;">
+	
+<h1>2018</h1>
+	
+<div id="container"> 
+	
+	
+	<meta name="slideshow" content="width=device-width, initial-scale=1">
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/2018xx2.jpeg" alt="picture of 2018" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/2018x1.jpg" alt="picture of 2018" style="width:100%">
+ </div>
+
+<div class="mySlides fade">
+  <img src="images/2018xx1.jpg" alt="picture of 2018" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/2018xx3.jpg" alt="picture of 2018" style="width:100%">
+ </div>
+	
+<div class="mySlides fade">
+  <img src="images/2018x4.jpg" alt="picture of 2018" style="width:100%">
+ </div>	
+	
+<div class="mySlides fade">
+  <img src="images/2018x1.jpg" alt="picture of 2018" style="width:100%">
+ </div>
+	
+<a class="prev" onClick="plusSlides(-1)">&#10094;</a>
+<a class="next" onClick="plusSlides(1)">&#10095;</a>
+	
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onClick="currentSlide(1)"></span> 
+ <span class="dot" onClick="currentSlide(2)"></span> 
+	<span class="dot" onClick="currentSlide(3)"></span> 
+	<span class="dot" onClick="currentSlide(4)"></span> 
+	<span class="dot" onClick="currentSlide(5)"></span> 
+	<span class="dot" onClick="currentSlide(6)"></span> 
+</div>
+<br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function showSlides(n) {
+ showSlides(slideIndex += n); 
+    }
+	
+function currentSlide(n) {
+	showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}    
+	   if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+     
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+}
+</script>
+
+  </div>
+	
+<p>Electric Picnic 2018 saw an abudance of acts including Dua Lipa, Picture This, The Coronas, Versatile, Nina Kraviz, King Kong Company, Le Boom and many more talents. This year included even more attractions such as the Green Crafts Field, Transmission and Anachronica amongst many more attractions that offer luxury and a comfortable stay.</p>
+<br>	
+
+<video controls poster="images/2018xx1.jpg">
+ <source src="video/Electric Picnic Highlights 2018.mp4" type="video/mp4">
+ <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+	
+<footer> @copyright2019RobynMulhall<a href="https://www.youtube.com/user/ElectricPicnicFest"><img src="images/social-youtube-circle-512.png" alt="youtube logo" style="width: 30px; height:40px;"></a> <a href="https://www.facebook.com/Electricpicnic/"><img src="images/sm_5a9794da1b10e.png" alt="facebook logo" style="width: 30px; height:40px;"></a> <a href="https://twitter.com/epfestival/status/705082304922853376?lang=en"><img src="images/snapchat-icon1.png" alt="snapchat logo" style="width: 30px; height:40px;"></a> <a href="https://www.electricpicnic.ie/subscribe"><img src="images/182-512.png" alt="newsletter logo" style="width: 30px; height:40px;"></a> <a href="https://twitter.com/EPfestival?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="images/58e9196deb97430e819064f6.png" alt="twitter logo" style="width: 30px; height:40px;"></a> </footer>
+	
+<script src="js/jquery-3.3.1.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.2.1.js"></script>
+	
+</body>
+</html>
